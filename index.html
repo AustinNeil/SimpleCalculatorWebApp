@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="styles.css">
+    <!--Import jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to my Calculator</h1>
+            <p>This calculator has incredibly limited functionality, but will eventually be<br>added to. As it stands, the calculator does single digit addition, subtraction, <br>multiplication, and division. The Positive/Negative modifier and the percent <br>modifiers are both disabled, as well as the decimal point. The All Clear button<br>uses a jQuery call to refresh the page, and all division is rounded off to 6 <br>decimal places. Enjoy!</p>
+            <div class="calculator">
+                <div class="screen"></div>
+                <div class="numpad">
+                <div class="column">
+                    <div class="modifier" id="CLEAR">AC</div>
+                    <div class="number">1</div>
+                    <div class="number">4</div>
+                    <div class="number">7</div>
+                    <div class="number">0</div>
+                </div>
+                <div class="column">
+                    <div class="modifier" disabled>+/-</div>
+                    <div class="number">2</div>
+                    <div class="number">5</div>
+                    <div class="number">8</div>
+                    <div id="secondZero" disabled>0</div>
+                </div>
+                <div class="column">
+                    <div class="modifier" disabled>%</div>
+                    <div class="number">3</div>
+                    <div class="number">6</div>
+                    <div class="number">9</div>
+                    <div class="number" id="Decimal" disabled>.</div>
+                </div>
+                <div class="column">
+                    <div class="method" id="Division">/</div>
+                    <div class="method" id="Multiplication">*</div>
+                    <div class="method" id="Subtraction">-</div>
+                    <div class="method" id="Addition">+</div>
+                    <div class="method" id="equalsButton">=</div>  
+                </div>
+            </div>
+                </div>
+        </div>
+        <!--Import Custom Script-->
+        <script src="./scripts.js" type="text/javascript"></script>
+        <footer>
+        
+        
+        </footer>
+    </body>
+</html>

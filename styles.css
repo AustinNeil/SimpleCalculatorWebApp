@@ -1,0 +1,61 @@
+.container {
+    text-align: center;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom:0px;
+}
+
+.active {
+    border-style:groove;
+    border-color: black;
+}
+#secondZero {
+    color:steelblue;
+    background-color: steelblue;
+    margin: 0 -4px 0px 0px;
+    border-style:groove;
+}
+.calculator {
+    font-size: 50px;
+    display: block;
+    width: 500px;
+    height: 600px;
+    padding: 0px 0px 0px 0px;
+}
+.screen {
+    font-size: 100px;
+    text-align:right;
+    height: 100px;
+    background-color: gainsboro;
+    border-style:inset;
+}
+.modifier {
+    background-color: lightblue;
+    margin: 0px -4px 0px 0px;
+    border-style:groove;
+}
+.number {
+    background-color: steelblue;
+    margin: 0 -4px 0px 0px;
+    border-style:groove;
+}
+
+.method {
+    background-color: orange;
+    margin-left: -5px;
+    border-style:groove;
+}
+
+
+.numpad {
+    font-size: auto;
+    
+}
+.column {
+    margin: 0px 0px 0px 0px;
+    height: 500px;
+    width: 23.128%;
+    display: inline-grid;
+}
