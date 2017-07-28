@@ -11,3 +11,10 @@ This simple application was used primarily for my benefit to brush up on basic h
 I plan to come back to this and add in multiple digit functionality, as well as functionality for the currently disabled feature.
 I would also like to eventually take this a step further and add in a scientific calculator version that can be swapped to, but we'll
 see where I end up with this :)
+
+
+HOW TO DEPLOY:
+1) Download all 3 files, (.html, .js, .css)
+2) Ensure that they are all within the same parent directory
+3) Use a browser, such as Google Chrome, to open index.html,
+4) Everything should work from here :D
